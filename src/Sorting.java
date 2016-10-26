@@ -6,9 +6,27 @@ import java.util.*;
 public class Sorting {
 
     public static void sortingPerform() {
-        int[] arr = new int[]{3,9,2,6,1,7,8,4,5};
+        int[] arr = new int[]{10,3,9,2,6,1,7,8,4,5};
         System.out.println("Initial array:");
         Sorting.showArr(arr);
+        System.out.println();
+
+
+
+        //InsertionSort
+        int[] insertionSortedArrray = new int[arr.length];
+        System.arraycopy(arr,0,insertionSortedArrray,0,arr.length);
+
+        //time measurement
+        long startTimeInsertion = System.nanoTime();
+            insertionSortedArrray = Sorting.insertionSort(insertionSortedArrray);
+        long estimatedTimeInsertion = System.nanoTime() - startTimeInsertion;
+
+
+        System.out.println("Sorted Insertion array:");
+        Sorting.showArr(insertionSortedArrray);
+        System.out.println("startTimeInsertion:" + startTimeInsertion);
+        System.out.println("estimatedTimeInsertion:" + estimatedTimeInsertion);
         System.out.println();
 
         //BubbleSort
@@ -26,30 +44,13 @@ public class Sorting {
         System.out.println("estimatedTimeBubble:" + estimatedTimeBubble);
         System.out.println();
 
-        //InsertionSort
-        int[] insertionSortedArrray = new int[arr.length];
-        System.arraycopy(arr,0,insertionSortedArrray,0,arr.length);
-
-        //time measurement
-        long startTimeInsertion = System.nanoTime();
-        insertionSortedArrray = Sorting.insertionSort(insertionSortedArrray);
-        long estimatedTimeInsertion = System.nanoTime() - startTimeInsertion;
-
-
-        System.out.println("Sorted Insertion array:");
-        Sorting.showArr(insertionSortedArrray);
-        System.out.println("startTimeInsertion:" + startTimeInsertion);
-        System.out.println("estimatedTimeInsertion:" + estimatedTimeInsertion);
-        System.out.println();
-
-
         //Arrays.sort()
         int[] sortedArrray = new int[arr.length];
         System.arraycopy(arr,0,sortedArrray,0,arr.length);
 
         //time measurement
         long startTimeSort = System.nanoTime();
-        Arrays.sort(sortedArrray);
+            Arrays.sort(sortedArrray);
         long estimatedTimeSort = System.nanoTime() - startTimeSort;
 
 
