@@ -1,9 +1,66 @@
 /**
  * Created by dbobkova on 26.10.2016.
  */
+import java.util.*;
+
 public class Sorting {
-    public static int[] bubbleSort(int[] array)
-    {
+
+    public static void sortingPerform() {
+        int[] arr = new int[]{3,9,2,6,1,7,8,4,5};
+        System.out.println("Initial array:");
+        Sorting.showArr(arr);
+        System.out.println();
+
+        //BubbleSort
+        int[] bubbleSortedArrray = new int[arr.length];
+        System.arraycopy(arr,0,bubbleSortedArrray,0,arr.length);
+
+        //time measurement
+        long startTimeBubble = System.nanoTime();
+        bubbleSortedArrray = Sorting.bubbleSort(bubbleSortedArrray);
+        long estimatedTimeBubble = System.nanoTime() - startTimeBubble;
+
+        System.out.println("Sorted Bubble array:");
+        Sorting.showArr(bubbleSortedArrray);
+        System.out.println("startTimeBubble:" + startTimeBubble);
+        System.out.println("estimatedTimeBubble:" + estimatedTimeBubble);
+        System.out.println();
+
+        //InsertionSort
+        int[] insertionSortedArrray = new int[arr.length];
+        System.arraycopy(arr,0,insertionSortedArrray,0,arr.length);
+
+        //time measurement
+        long startTimeInsertion = System.nanoTime();
+        insertionSortedArrray = Sorting.insertionSort(insertionSortedArrray);
+        long estimatedTimeInsertion = System.nanoTime() - startTimeInsertion;
+
+
+        System.out.println("Sorted Insertion array:");
+        Sorting.showArr(insertionSortedArrray);
+        System.out.println("startTimeInsertion:" + startTimeInsertion);
+        System.out.println("estimatedTimeInsertion:" + estimatedTimeInsertion);
+        System.out.println();
+
+
+        //Arrays.sort()
+        int[] sortedArrray = new int[arr.length];
+        System.arraycopy(arr,0,sortedArrray,0,arr.length);
+
+        //time measurement
+        long startTimeSort = System.nanoTime();
+        Arrays.sort(sortedArrray);
+        long estimatedTimeSort = System.nanoTime() - startTimeSort;
+
+
+        System.out.println("Sorted Arrays.sort() array:");
+        Sorting.showArr(sortedArrray);
+        System.out.println("startTimeSort:" + startTimeSort);
+        System.out.println("estimatedTimeSort:" + estimatedTimeSort);
+        System.out.println();
+    }
+
+    public static int[] bubbleSort(int[] array){
         int temp;
         for (int i = 0; i < array.length; i++){
             for(int j = i+1; j < array.length; j++){
@@ -31,9 +88,6 @@ public class Sorting {
         }
         return  array;
     }
-
-
-
 
     public static void showArr(int[] array){
         for (int el:array) {
