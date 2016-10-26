@@ -18,6 +18,23 @@ public class Sorting {
         return array;
     }
 
+    public static int[] insertionSort(int[] array){
+        int temp;
+        for(int i = 1; i < array.length; i++){
+            temp = array[i];
+            for (int j = i-1;j>=0 ;j--){
+                if(temp < array[j]){
+                    array[j+1] = array[j];
+                    array[j] = temp;
+                }
+            }
+        }
+        return  array;
+    }
+
+
+
+
     public static void showArr(int[] array){
         for (int el:array) {
 
