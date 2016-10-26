@@ -6,7 +6,13 @@ import java.util.*;
 public class Sorting {
 
     public static void sortingPerform() {
-        int[] arr = new int[]{10,3,9,2,6,1,7,8,4,5};
+        //int[] arr = new int[]{10,3,9,2,6,1,7,8,4,5};
+        int[]arr = new int[100];
+        for (int i = 0; i < arr.length; i++){
+            arr[i]=arr.length - i;
+        }
+
+
         System.out.println("Initial array:");
         Sorting.showArr(arr);
         System.out.println();
