@@ -18,6 +18,7 @@ public class OddArray {
         for (int i = N-1; i>= 0; i-- ){
             System.out.print(array[i] + " ");
         }
+        System.out.println("\n");
     }
 
 
