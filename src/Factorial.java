@@ -19,7 +19,7 @@ public class Factorial {
         System.out.println();
 
         //Calculation factorial with recursion
-        System.out.print("alculation factorial with recursion  \n" + N + "! = ");
+        System.out.print("Calculation factorial with recursion  \n" + N + "! = ");
         //time measurement
         long startTimeR = System.nanoTime();
             long factorialR = Factorial.factorialR(N);

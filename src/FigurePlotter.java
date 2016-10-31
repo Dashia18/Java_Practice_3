@@ -75,7 +75,6 @@ public class FigurePlotter {
         {
             for (int j = 0; j < N ; j++)//
             {
-                //System.out.print(i + " " + j);
                 if(j < N-i-1){
                     System.out.print("\b\b");
                 }

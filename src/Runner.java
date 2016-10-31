@@ -14,7 +14,7 @@ public class Runner {
         Sorting.sortingPerform();
 
      //Factorial (2 way) and time measurement
-        System.out.println("\n\nFactorial (2 way) and time measurement  \n" );
+        System.out.println("\n\nFactorial (2 ways) and time measurement  \n" );
         Factorial.factorialPerform();
 
       //Figure plot #

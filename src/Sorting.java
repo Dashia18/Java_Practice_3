@@ -96,7 +96,6 @@ public class Sorting {
 
     public static void showArr(int[] array){
         for (int el:array) {
-
             System.out.print(el + " ");
         }
         System.out.println();
