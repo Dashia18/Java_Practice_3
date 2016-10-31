@@ -32,7 +32,6 @@ public class Sorting {
 
         System.out.println("Sorted Insertion array:");
         Sorting.showArr(insertionSortedArrray);
-        System.out.println("startTimeInsertion:" + startTimeInsertion);
         System.out.println("estimatedTimeInsertion:" + estimatedTimeInsertion);
         System.out.println();
 
@@ -47,7 +46,6 @@ public class Sorting {
 
         System.out.println("Sorted Bubble array:");
         Sorting.showArr(bubbleSortedArrray);
-        System.out.println("startTimeBubble:" + startTimeBubble);
         System.out.println("estimatedTimeBubble:" + estimatedTimeBubble);
         System.out.println();
 
@@ -63,7 +61,6 @@ public class Sorting {
 
         System.out.println("Sorted Arrays.sort() array:");
         Sorting.showArr(sortedArrray);
-        System.out.println("startTimeSort:" + startTimeSort);
         System.out.println("estimatedTimeSort:" + estimatedTimeSort);
         System.out.println();
     }

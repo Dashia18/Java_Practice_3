@@ -3,6 +3,7 @@
  */
 public class FigurePlotter {
     public static void figurePlotterPerform() {
+
         //rectangleDraw(5,4);
         //trianglegleDrawA(8);
         trianglegleDrawB(8);

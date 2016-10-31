@@ -10,12 +10,15 @@ public class Runner {
     public static void main(String[] args) {
 
      //Sorting (3 types) array and time measurement
-        //Sorting.sortingPerform();
+        System.out.println("Sorting (3 types) array and time measurement  \n" );
+        Sorting.sortingPerform();
 
      //Factorial (2 way) and time measurement
-        //Factorial.factorialPerform();
+        System.out.println("\n\nFactorial (2 way) and time measurement  \n" );
+        Factorial.factorialPerform();
 
       //Figure plot #
+        System.out.println("\n\nFigure ploter: \n");
         FigurePlotter.figurePlotterPerform();
 
 
