@@ -1,9 +1,9 @@
-package OneDimentionalArrays;
+package OneDimensionalArrays;
 
 /**
  * Created by dbobkova on 31.10.2016.
  */
-public class OddArray {
+public class OddElArray {
     public static void oddArrayCreator() {
         int N = 100/2; //numbers of odd values
         int[] array = new int[N];

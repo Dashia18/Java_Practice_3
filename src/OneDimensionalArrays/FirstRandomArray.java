@@ -1,11 +1,11 @@
-package OneDimentionalArrays;
+package OneDimensionalArrays;
 
 import java.util.Random;
 
 /**
  * Created by dbobkova on 31.10.2016.
  */
-public class RandomElementArray {
+public class FirstRandomArray {
     public static void randElArrayCreator() {
         Random rand = new Random();
 
@@ -27,7 +27,7 @@ public class RandomElementArray {
                 oddCounter++;
             }
         }
-        System.out.println("even values: " + evenCounter + "\nodd values: " + oddCounter);
+        System.out.println("even values: " + evenCounter + "\nodd values: " + oddCounter + "\n");
 
     }
 }
