@@ -7,6 +7,7 @@ public class Sorting {
 
     public static void sortingPerform() {
         //int[] arr = new int[]{10,3,9,2,6,1,7,8,4,5};
+
         int[]arr = new int[100];
         for (int i = 0; i < arr.length; i++){
             arr[i]=arr.length - i;
@@ -31,7 +32,6 @@ public class Sorting {
 
         System.out.println("Sorted Insertion array:");
         Sorting.showArr(insertionSortedArrray);
-        System.out.println("startTimeInsertion:" + startTimeInsertion);
         System.out.println("estimatedTimeInsertion:" + estimatedTimeInsertion);
         System.out.println();
 
@@ -46,7 +46,6 @@ public class Sorting {
 
         System.out.println("Sorted Bubble array:");
         Sorting.showArr(bubbleSortedArrray);
-        System.out.println("startTimeBubble:" + startTimeBubble);
         System.out.println("estimatedTimeBubble:" + estimatedTimeBubble);
         System.out.println();
 
@@ -62,7 +61,6 @@ public class Sorting {
 
         System.out.println("Sorted Arrays.sort() array:");
         Sorting.showArr(sortedArrray);
-        System.out.println("startTimeSort:" + startTimeSort);
         System.out.println("estimatedTimeSort:" + estimatedTimeSort);
         System.out.println();
     }
@@ -98,7 +96,6 @@ public class Sorting {
 
     public static void showArr(int[] array){
         for (int el:array) {
-
             System.out.print(el + " ");
         }
         System.out.println();
