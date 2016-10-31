@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2966b3ea-476b-486d-a7e6-859689ed7673" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Practice_3/FigurePlotter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FigurePlotter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice_3/Runner.class" afterPath="$PROJECT_DIR$/out/production/Practice_3/Runner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Runner.java" afterPath="$PROJECT_DIR$/src/Runner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FigurePlotter.java" afterPath="$PROJECT_DIR$/src/FigurePlotter.java" />
     </list>
     <ignored path="Practice_3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,31 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FigurePlotter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FigurePlotter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factorial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="235">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -620,12 +596,12 @@
       <updated>1477472286769</updated>
       <workItem from="1477472291207" duration="9684000" />
       <workItem from="1477513615346" duration="1020000" />
-      <workItem from="1477909069176" duration="3608000" />
+      <workItem from="1477909069176" duration="7417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14312000" />
+    <option name="totallyTimeSpent" value="18121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -638,7 +614,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4738562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630719" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -755,24 +731,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-340">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FigurePlotter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="425">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="method#rectangleDraw#0;class#FigurePlotter#0" expanded="false" />
+            <element signature="method#trianglegleDrawA#0;class#FigurePlotter#0" expanded="false" />
+            <element signature="method#trianglegleDrawB#0;class#FigurePlotter#0" expanded="false" />
+            <element signature="method#trianglegleDrawC#0;class#FigurePlotter#0" expanded="false" />
+            <element signature="method#trianglegleDrawD#0;class#FigurePlotter#0" expanded="false" />
+            <element signature="method#rectangleDrawE#0;class#FigurePlotter#0" expanded="false" />
+            <element signature="method#drawF#0;class#FigurePlotter#0" expanded="false" />
+            <element signature="method#drawG#0;class#FigurePlotter#0" expanded="false" />
+            <element signature="method#drawH#0;class#FigurePlotter#0" expanded="false" />
+            <element signature="method#drawI#0;class#FigurePlotter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
