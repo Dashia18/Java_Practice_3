@@ -10,7 +10,7 @@ public class Factorial {
         System.out.print("Calculation factorial with cycle \n" + N + "! = ");
         //time measurement
         long startTimeC = System.nanoTime();
-            long factorialC = Factorial.factorialC(N);
+        long factorialC = Factorial.factorialC(N);
         long estimatedTimeC = System.nanoTime() - startTimeC;
 
         System.out.println(factorialC);
@@ -22,7 +22,7 @@ public class Factorial {
         System.out.print("Calculation factorial with recursion  \n" + N + "! = ");
         //time measurement
         long startTimeR = System.nanoTime();
-            long factorialR = Factorial.factorialR(N);
+        long factorialR = Factorial.factorialR(N);
         long estimatedTimeR = System.nanoTime() - startTimeR;
 
         System.out.println(factorialR);
@@ -33,22 +33,21 @@ public class Factorial {
 
     public static long factorialC(int n) {
         long result = 1;
-        if(n == 0 || n == 1)
-        {
+        if (n == 0 || n == 1) {
             result = 1;
-        }
-        else {
-            for (int i = 2; i<= n; i++){
+        } else {
+            for (int i = 2; i <= n; i++) {
                 result = result * i;
             }
         }
-        return  result;
+        return result;
     }
-    public static long factorialR(int n){
-        if(n == 1){
+
+    public static long factorialR(int n) {
+        if (n == 1) {
             return 1;
         }
-        return n * factorialR(n-1);
+        return n * factorialR(n - 1);
     }
 
 
