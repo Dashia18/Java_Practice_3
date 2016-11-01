@@ -3,7 +3,7 @@ package MultiDimensionalArrays;
 import java.util.Random;
 
 /**
- * Created by dbobkova on 01.11.2016.
+ * Created by Daria Serebryakova on 01.11.2016.
  */
 public class Array2DimSorting {
     public static void sort2dArray() {
