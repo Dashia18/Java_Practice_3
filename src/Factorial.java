@@ -1,5 +1,5 @@
 /**
- * Created by dbobkova on 26.10.2016.
+ * Created by Daria Serebryakova on 26.10.2016.
  */
 public class Factorial {
     public static void factorialPerform() {

@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.*;
 
 /**
- * Created by dbobkova on 01.11.2016.
+ * Created by Daria Serebryakova on 01.11.2016.
  */
 public class ElementFrequency {
     public static void frequencySearch() {

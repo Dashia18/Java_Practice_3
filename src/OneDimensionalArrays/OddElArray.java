@@ -1,7 +1,7 @@
 package OneDimensionalArrays;
 
 /**
- * Created by dbobkova on 31.10.2016.
+ * Created by Daria Serebryakova on 31.10.2016.
  */
 public class OddElArray {
     public static void oddArrayCreator() {
