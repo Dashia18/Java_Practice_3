@@ -1,4 +1,4 @@
-package MultiDimensionalArrays;
+package arrays.multidimensional;
 
 
 /**
